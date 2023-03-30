@@ -10,10 +10,13 @@ import {Images} from '../data/data'
 
 const Contact = () => {
   return (
-    <div className='w-full h-full flex flex-col items-center justify-center mt-6 bg-primary2'>
+    <div className='w-full h-full flex flex-col items-center justify-center mt-14 bg-primary2 '>
     <div className='flex p-10 gap-20'>
     <div className='flex flex-col '>
+    <div className=' w-16 flex items-center justify-center'>
     <Title text='Contact'/>
+    </div>
+    
     <h1 className=' text-white text-2xl font-bold m-3'>Get in touch with Us</h1>
     <p className=' text-secondary font-normal text-sm mb-5'>Leverage agile framworks to provide a robust<br/>synopsis for strategy foster collaborative<br/>thinking to further the overall value</p>
     <div className='flex flex-col gap-4'>
@@ -27,7 +30,7 @@ const Contact = () => {
     <Form/>
     </div>
     </div>
-    <div>
+    <div className=' p-5 m-3'>
     <Imagegallary images={Images}/>
     </div>
     </div>

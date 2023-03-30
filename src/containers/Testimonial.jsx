@@ -7,10 +7,14 @@ import IMG1 from '../assets/photonew1.jpg'
 
 const Testimonial = () => {
   return (
-    <div className='flex flex-col items-center justify-center  '>
-    <div className='flex '> <Title text='Testimonial'/></div>
-    <div className='flex items-center gap-96'>
+    <div className='flex flex-col   mt-12 '>
+   
+    <div className='flex items-center justify-evenly gap-44'>
+    <div className='flex flex-col'>
+    <div className=' w-24'> <Title text='Testimonial'/></div>
     <h1 className=' text-heading text-lg font-bold'>What Our Customer Say</h1>
+    </div>
+    
     <div className='flex'>
     <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="21.7676" cy="21.7676" r="21.7676" transform="matrix(-1 0 0 1 43.5352 0.464844)" fill="url(#paint0_linear_1_4293)"/>

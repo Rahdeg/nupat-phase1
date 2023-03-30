@@ -1,4 +1,3 @@
-import ColorButton from '@/components/ColorButton'
 import IconWithText from '@/components/IconWithText'
 import Title from '@/components/Title'
 import React from 'react'
@@ -7,8 +6,10 @@ const Whatwedo = () => {
   return (
     <div className='flex  justify-center gap-56 mt-10'>
     <div className='flex flex-col '>
+    <div className=' w-22 flex items-center '>
     <Title text='What we do'/>
-    <h1 className=' text-heading font-bold text-xl' >Safe & Reliable <br/> Cargo Solutions</h1>
+    </div>
+    <h1 className=' text-heading font-bold text-2xl' >Safe & Reliable <br/> Cargo Solutions</h1>
     </div>
     <div className=' grid grid-cols-2 gap-6'>
     <IconWithText icon={<svg width="52" height="56" viewBox="0 0 52 56" fill="none" xmlns="http://www.w3.org/2000/svg">
