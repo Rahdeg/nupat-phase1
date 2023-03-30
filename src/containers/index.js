@@ -1,10 +1,11 @@
 export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";
 export { default as Header } from "./Header";
-export { default as Home } from "./Home";
+export { default as Homepage } from "./Home";
 export { default as Ourblog } from "./Ourblog";
 export { default as Testimonial } from "./Testimonial";
 export { default as Thetransporter } from "./Thetransporter";
 export { default as Whatwedo } from "./Whatwedo";
 export { default as Whyus } from "./Whyus";
 export { default as  Whychoose} from "./Whychoose";
+export { default as  Transporter} from "./Transporter";
