@@ -2,7 +2,7 @@ import ThreeDivs from '@/components/ThreeDiv'
 import Title from '@/components/Title'
 import React from 'react'
 import IMG from '../assets/photo (10).png'
-import IMG1 from '../assets/photo (11).png'
+import IMG1 from '../assets/photo (11).PNG'
 
 
 const Testimonial = () => {
