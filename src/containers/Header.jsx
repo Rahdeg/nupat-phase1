@@ -19,9 +19,9 @@ const Header = () => {
 </svg>
     </div>
     <div className='flex flex-row items-center justify-center ml-8 gap-12'>
-    <Contacts icon={<BiTime className='w-12 h-12 text-[#F6B426]'/>} text1='Mon-Sat 9.00-18.00' text2='Sunday Closed'/>
-    <Contacts icon={<AiOutlineMail className='w-12 h-12 text-[#F6B426]'/>} text1='Email' text2='contact@logistics.com'/>
-    <Contacts icon={<IoIosCall className='w-12 h-12 text-[#F6B426]'/>} text1='Call us' text2='(00)112365489'/>
+    <Contacts icon={<BiTime />} text1='Mon-Sat 9.00-18.00' text2='Sunday Closed'/>
+    <Contacts icon={<AiOutlineMail />} text1='Email' text2='contact@logistics.com'/>
+    <Contacts icon={<IoIosCall />} text1='Call us' text2='(00)112365489'/>
     </div>
     </div>
   )

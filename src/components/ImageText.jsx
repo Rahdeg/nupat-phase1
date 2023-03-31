@@ -7,7 +7,7 @@ function ImageText({ imageSrc, text1, text2 }) {
         
         <div className="absolute bottom-0 left-0 p-4 ">
           <div className="text-white text-lg font-medium">{text1}</div>
-          <div className="text-[#FFB629]text-sm mt-2">{text2}</div>
+          <div className="text-bg text-sm font-bold mt-2">{text2}</div>
         </div>
       </div>
     );

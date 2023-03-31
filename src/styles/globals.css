@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg {
+  background-image: linear-gradient(to right top, #ffb629, #ffbd32, #ffc43a, #ffca43, #ffd14b, #ffd357, #ffd661, #ffd86c, #ffd77b, #ffd68a, #ffd698, #ffd7a6);
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -116,7 +120,8 @@ a {
   height: 50px;
   border: none;
   color: #000;
-  background: #FFB629;
+background: rgb(255,182,41);
+background: linear-gradient(90deg, rgba(255,182,41,1) 100%, rgba(255,218,86,1) 100%, rgba(255,215,166,1) 100%);
   position: relative;
   z-index: 3;
   font-size: large;
@@ -136,6 +141,35 @@ a {
 }
 
 .btn:hover::before {
+  width: 50%;
+  height: 100%;
+}
+
+.btn2 {
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: white;
+  background:#091242;
+  position: relative;
+  z-index: 3;
+  font-size: large;
+}
+
+.btn2::before {
+  content: "";
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #1F2A69;
+  position: absolute;
+  z-index: -1;
+  border-radius: 30px 0px 0px 0px;
+  transition: 0.3s ease-out;
+}
+
+.btn2:hover::before {
   width: 50%;
   height: 100%;
 }

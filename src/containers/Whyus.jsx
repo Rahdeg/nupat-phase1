@@ -72,7 +72,7 @@ const Whyus = () => {
     </div>
     <div className='flex mt-16'>
     <div className='flex items-center justify-center border-t-2 border-b-2 border-r-2 not:border-l-2 py-3 gap-3 pr-14'>
-    <p className=' text-3xl font-extrabold'>1294</p>
+    <p className=' text-3xl font-extrabold text-[#1C1F35]'>1294</p>
     <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" width="17" height="17" fill="url(#paint0_linear_1_4448)"/>
 <defs>
@@ -86,7 +86,7 @@ const Whyus = () => {
 <p className=' text-heading text-sm'>Delivered Packages</p>
     </div>
     <div className='flex items-center justify-center border-t-2 border-b-2 border-l-2 not:border-r-2 py-3 gap-3 pl-14'>
-    <p className='text-3xl font-extrabold'>3594</p>
+    <p className='text-3xl font-extrabold text-[#1C1F35]'>3594</p>
     <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.5" width="17" height="17" fill="url(#paint0_linear_1_4448)"/>
 <defs>

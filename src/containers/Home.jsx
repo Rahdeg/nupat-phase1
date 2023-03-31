@@ -13,19 +13,19 @@ const Home = () => {
     <div className="relative 1 ">
       <nav className=" text-white px-8  absolute top-0 left-0 right-0 z-50 flex gap-32 items-center justify-center bg-gradient">
       <div className="flex items-center">
-      <a className=" text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2">
+      <a className=" text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2 border-nav">
         Home
       </a>
     <div className="h-full w-0.5 bg-gray-300 mx-4"></div>
-      <a className="text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2">
+      <a className="text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2 border-nav">
         About
       </a>
     <div className="h-full w-0.5 bg-gray-300 mx-4"></div>
-      <a className="text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2">
+      <a className="text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2 border-nav">
         Pages
       </a>
     <div className="h-full w-0.5 bg-gray-300 mx-4"></div>
-      <a className="text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2">
+      <a className="text-white hover:text-gray-900 font-bold text-xl px-4 border-r-2 border-nav">
         Project
       </a>
     <div className="h-full w-0.5 bg-gray-300 mx-4"></div>
@@ -46,7 +46,7 @@ const Home = () => {
       />
         <div className="absolute top-0 left-0 p-16 mt-28 ml-36">
         <div className=" w-56 mb-2 items-center justify-center">
-        <Title text='Logistics & Supply Chain Solutions' />
+        <Title text='Logistics & Supply Chain Solutions' textColor='#f4f4f4' bgColor="rgba(4, 28, 55, 0.5)"/>
         </div>
           <h1 className="text-white font-bold text-6xl mb-4">Your Gateway <br/>to any Destination <br/> in the World</h1>
           <p className="text-white text-sm mb-3">

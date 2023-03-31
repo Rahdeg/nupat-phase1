@@ -4,7 +4,8 @@ import React from 'react'
 import IMG from '../assets/Photo (18).png'
 import IMG1 from '../assets/Image (5).png'
 import IMG2 from '../assets/Image (6).png'
-import ColorButton from '@/components/ColorButton'
+import Button from '@/components/Button'
+
 
 
 const Ourblog = () => {
@@ -20,7 +21,7 @@ const Ourblog = () => {
     <News img={IMG2} title=<p>Five things you should have <br/>  ready for your broker</p> date='25' bottom='1px solid black'/>
     </div>
     <div className=' mt-10 mb-2'>
-    <ColorButton text='More Blog'/>
+    <Button text='More Blog'/>
     </div>
    
     </div>

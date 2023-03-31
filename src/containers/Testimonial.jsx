@@ -11,11 +11,11 @@ const Testimonial = () => {
    
     <div className='flex items-center justify-evenly gap-44'>
     <div className='flex flex-col'>
-    <div className=' w-24'> <Title text='Testimonial'/></div>
+    <div className=' w-24 mb-2'> <Title text='Testimonial'/></div>
     <h1 className=' text-heading text-lg font-bold'>What Our Customer Say</h1>
     </div>
     
-    <div className='flex'>
+    <div className='flex gap-2'>
     <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="21.7676" cy="21.7676" r="21.7676" transform="matrix(-1 0 0 1 43.5352 0.464844)" fill="url(#paint0_linear_1_4293)"/>
 <path d="M28 21.4648L16 21.4648" stroke="#091242" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
