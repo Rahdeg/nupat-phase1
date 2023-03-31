@@ -6,10 +6,11 @@
 .bg {
   background-image: linear-gradient(to right top, #ffb629, #ffbd32, #ffc43a, #ffca43, #ffd14b, #ffd357, #ffd661, #ffd86c, #ffd77b, #ffd68a, #ffd698, #ffd7a6);
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
+  font-family: 'Rubik', sans-serif;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;

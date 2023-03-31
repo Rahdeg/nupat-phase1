@@ -41,7 +41,7 @@ const Home = () => {
       <div className="relative h-screen overflow-hidden">
         <Image src={IMG} alt="dd" />
         <div className="absolute top-0 left-0 p-16 mt-28 ml-36">
-          <div className=" w-56 mb-2 items-center justify-center">
+          <div className=" w-60 mb-2 items-center justify-center">
             <Title
               text="Logistics & Supply Chain Solutions"
               textColor="#f4f4f4"
