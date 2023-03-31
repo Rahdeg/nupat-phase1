@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         <div className="flex items-center gap-7 ml-28 h-full ">
           <Socialmedia />
-          <h1 className=" border h-full px-2 py-4 text-heading font-bold  bg-white">
+          <h1 className=" border h-full px-5 py-4 text-heading font-bold  bg-white">
             Request qoute
           </h1>
         </div>
