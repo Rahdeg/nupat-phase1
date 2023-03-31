@@ -1,11 +1,5 @@
+const ColorButton = ({ text }) => {
+  return <button class="btn">{text}</button>;
+};
 
-const ColorButton =({ text })=> {
-    return (
-      <button class="btn">{text}</button>
-      
-
-    );
-  }
-  
-  export default ColorButton;
-  
+export default ColorButton;

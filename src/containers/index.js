@@ -7,5 +7,5 @@ export { default as Testimonial } from "./Testimonial";
 export { default as Thetransporter } from "./Thetransporter";
 export { default as Whatwedo } from "./Whatwedo";
 export { default as Whyus } from "./Whyus";
-export { default as  Whychoose} from "./Whychoose";
-export { default as  Transporter} from "./Transporter";
+export { default as Whychoose } from "./Whychoose";
+export { default as Transporter } from "./Transporter";
